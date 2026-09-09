@@ -1,0 +1,24 @@
+# Manual deploy artifacts — not needed once Netlify deploys from git
+/netlify-deploy/
+cascade-farm-fleet-netlify.zip
+
+# Planning doc, not part of the live site
+Cascade_Farm_Fleet_Website_Outline.docx
+
+# Unused raw source photos (optimized versions live in images/)
+Front Shop pic.png
+Tractor Pic.png
+
+# Netlify CLI local state
+.netlify/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Editor/tooling config, not part of the site
+.claude/
+
+# Original uncompressed uploads, replaced by the optimized .jpg versions in use
+images/jeremy-work-order.png
+images/david-work-order.png
