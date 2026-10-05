@@ -17,3 +17,9 @@
   for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=300, must-revalidate"
+
+[[redirects]]
+  from = "/review"
+  to = "https://g.page/r/CagQAlqOjsM2EBM/review"
+  status = 302
+  force = true
